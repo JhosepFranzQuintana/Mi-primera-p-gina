@@ -1,0 +1,89 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    /* elimina el margen externo */
+    padding: 0;
+    background-color: rgb(65, 63, 61); /* Cambié el color de fondo a un tono de gris oscuro */
+    color: #ecf0f1; /* Cambié el color del texto a blanco */
+    }
+ 
+header {
+    background-color: rgb(231, 177, 60); /* Rojo oscuro para el encabezado */
+    text-align: center;
+    padding: 20px;
+    }
+        
+h1{
+    color: rgb(53, 87, 154);
+    font-size: 3em;
+    margin: 0;
+    }
+
+nav{
+    background-color: rgb(101, 138, 138);
+    padding: 10px;
+    }
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    font-size: 17px;     
+    }
+
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+    }
+
+ul li a{
+    text-decoration: none;
+    }
+
+main{
+    padding: 20px;
+    }
+
+section{
+    background-color: rgb(49, 36, 101);
+    padding: 20px;
+    margin: 20px 0;
+    }
+
+section h2{
+    color: rgb(226, 49, 43);
+    font-size: 2em;
+    margin-bottom: 10px;
+    }
+
+section p{
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: rgb(253, 252, 252);
+    }
+
+section img{
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+    }
+
+section ol,
+section ul{
+    font-size: 1.2em;
+    color: black;
+    margin-top: 10px;
+    }
+
+footer {
+    background-color: #000000;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    /* fijarlo abajo */
+    bottom: 0;
+    width: 100%;
+    }
+    
+

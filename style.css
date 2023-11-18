@@ -1,17 +1,176 @@
+body {     
+    font-family: 'Arial', sans-serif;     
+    margin: 0;     
+    padding: 0;     
+    background-color: #34495e;     
+    color: #ecf0f1; 
+} 
+header {     
+    background-image: url(https://ca.shopatshowcase.com/cdn/shop/collections/CollectionBanners-November202221_1c2e4508-c63b-47ef-804d-f039785e9685.jpg?v=1668457250);    
+    text-align: center;     
+    padding: 12%; 
+    background-size: 300px;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
 
+.main-heading{
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    margin: 0;
+}
+
+nav {     
+    background-image: url(https://timelinecovers.pro/facebook-cover/download/anime-dragon-ball-z-shenron-facebook-cover.jpg); 
+    padding: 3%; 
+    background-position: center;
+}
+
+nav ul {     
+    list-style-type: none;     
+    margin: 0;     
+    padding: 0;     
+    text-align: center; 
+} 
+
+nav ul li {     
+    display: inline;     
+    margin-right: 20px; 
+} 
+
+nav ul li a {     
+    color: #ffffff;     
+    text-decoration: none;     
+    font-size: 1.2em;     
+    transition: color 0.3s ease; /* Agregué una transición al color para suavizar el cambio */
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+} 
+
+nav ul li a:hover {     
+    color: rgb(64, 230, 255); /* Cambio de color al pasar el ratón */
+} 
+
+main {     
+    padding: 20px; 
+}
+
+li{
+    color: rgb(0, 0, 0);
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+.saga-section {     
+    background-image: url(https://i.pinimg.com/originals/8b/56/f7/8b56f7283114b0dca587fa8b470ac378.jpg);  
+    padding: 20px;     
+    margin: 20px 0;     
+    border-radius: 8px; /* Bordes redondeados */    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra ligera */
+    background-size: cover;
+} 
+
+.saga-section h2 {     
+    color: #ffffff;     
+    font-size: 2em;     
+    margin-bottom: 10px;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; 
+} 
+
+.saga-section p {     
+    font-size: 1.2em;     
+    line-height: 1.5;     
+    color: #ffffff; 
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+} 
+
+.saga-section img {     
+    max-width: 60%;     
+    height: auto;     
+    border-radius: 8px;     
+    margin-top: 10px;     
+    transition: transform 0.3s ease; /* Agregué una transición para el efecto de escala */
+} 
+
+.saga-section img:hover {     
+    transform: scale(1.05); /* Efecto de escala al pasar el ratón */
+} 
+
+ footer {     
+    background-color: #333;     
+    color: #ecf0f1;     
+    text-align: center;     
+    padding: 10px;     
+    position: fixed;     
+    bottom: 0;     
+    width: 100%; 
+}
+
+#saga1 {
+    background-color: #2ecc71;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+ 
+#saga1 .section-heading {
+    color: #ffffff;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+ 
+#saga1 p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #ffffff;
+}
+ 
+#imgSaiyajin {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+    transition: transform 0.3s ease;
+}
+ 
+#imgSaiyajin:hover {
+    transform: scale(1.1);
+}
+ 
+#main-footer {
+    background-color: #333;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/*  
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
-    /* elimina el margen externo */
+    elimina el margen externo 
     padding: 0;
-    background-color: rgb(65, 63, 61); /* Cambié el color de fondo a un tono de gris oscuro */
-    color: #ecf0f1; /* Cambié el color del texto a blanco */
-    }
+    background-color: rgb(65, 63, 61);  Cambié el color de fondo a un tono de gris oscuro 
+    color: #ecf0f1;  Cambié el color del texto a blanco 
+    } 
  
 header {
-    background-color: rgb(231, 177, 60); /* Rojo oscuro para el encabezado */
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhdBiXtZFdFcr6a1-QWSA_yOPLr7wMnpNQRA&usqp=CAU);
     text-align: center;
-    padding: 20px;
+    padding: 40px;
+    background-size: cover;
     }
         
 h1{
@@ -81,9 +240,7 @@ footer {
     text-align: center;
     padding: 10px;
     position: fixed;
-    /* fijarlo abajo */
+    fijarlo abajo 
     bottom: 0;
     width: 100%;
-    }
-    
-
+    }  */
